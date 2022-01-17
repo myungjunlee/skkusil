@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c50892ec.chunk.css",
+    "main.js": "/static/js/main.1c101f49.chunk.js",
+    "main.js.map": "/static/js/main.1c101f49.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8233b8b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8233b8b5.js.map",
+    "static/js/2.b97df50b.chunk.js": "/static/js/2.b97df50b.chunk.js",
+    "static/js/2.b97df50b.chunk.js.map": "/static/js/2.b97df50b.chunk.js.map",
+    "index.html": "/index.html",
+    "service-worker.js": "/service-worker.js",
+    "service-worker.js.map": "/service-worker.js.map",
+    "static/css/main.c50892ec.chunk.css.map": "/static/css/main.c50892ec.chunk.css.map",
+    "static/js/2.b97df50b.chunk.js.LICENSE.txt": "/static/js/2.b97df50b.chunk.js.LICENSE.txt",
+    "static/media/mypage.css": "/static/media/SKKUbg.12913326.jpg",
+    "static/media/login.css": "/static/media/SKKUbg_login.bc052c19.jpg",
+    "static/media/ex1.786e8754.jpeg": "/static/media/ex1.786e8754.jpeg",
+    "static/media/ex2.272ebdad.jpeg": "/static/media/ex2.272ebdad.jpeg",
+    "static/media/ex3.dc475347.jpeg": "/static/media/ex3.dc475347.jpeg",
+    "static/media/found.aef8e636.jpeg": "/static/media/found.aef8e636.jpeg",
+    "static/media/logo2.fc871e03.jpg": "/static/media/logo2.fc871e03.jpg",
+    "static/media/new_found.e6b13f08.jpg": "/static/media/new_found.e6b13f08.jpg",
+    "static/media/new_lost.40018583.jpg": "/static/media/new_lost.40018583.jpg",
+    "static/media/skkulogo.90ce1319.png": "/static/media/skkulogo.90ce1319.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8233b8b5.js",
+    "static/js/2.b97df50b.chunk.js",
+    "static/css/main.c50892ec.chunk.css",
+    "static/js/main.1c101f49.chunk.js"
+  ]
+}

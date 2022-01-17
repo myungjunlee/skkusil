@@ -1,0 +1,69 @@
+@media only screen and (max-width: 800px) {
+  /* 2. 전체 공통 요소는 아니지만, 다른 페이지에서도 쓰이는 요소 */
+  .Search-body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Noto Sans KR, sans-serif;
+  }
+  /* 헤더 */
+  .Search-header {
+    padding: 30px 0% 10px;
+    text-align: center;
+    border-bottom: 1px gray solid;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    top: 0;
+  }
+  .Search-header h2 {
+    font-size: 20px;
+    /* font-weight: 400; */
+    margin: 0;
+  }
+
+  /* 3. only 이 페이지에서만 쓰이는 요소 */
+
+  /* 게시판 */
+  /*게시판 전체 틀*/
+  .Search-content_container {
+    margin-top: 80.2px;
+    text-align: center;
+  }
+  /*게시판 종류(습득물 or 분실물)*/
+  .Search-content_container h3 {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  /*게시판 설명*/
+  .Search-content_container p {
+    font-size: 14px;
+  }
+  /*습득물 게시판*/
+  .Search-content_container .Search-lost_info {
+    padding-top: 0px;
+    margin-bottom: 15px;
+  }
+  /*분실물 게시판*/
+  .Search-content_container .Search-found_info {
+    padding-top: 0px;
+    margin-bottom: 80px;
+  }
+  /*게시판 - 텍스트 설명 부분*/
+  .Search-found_text,
+  .Search-lost_text {
+    width: 80%;
+    margin: auto;
+  }
+  /*게시판 - 이미지 부분*/
+  .Search-found_img,
+  .Search-lost_img {
+    text-align: center;
+  }
+  .Search-content_container img {
+    width: 80%;
+    border: 2px rgb(141, 198, 63) solid;
+    border-radius: 1.5rem;
+  }
+}

@@ -1,0 +1,48 @@
+@media only screen and (max-width: 800px) {
+  /* 1. 전체 페이지 공통 요소 */
+  /*
+        body{
+            background: url("imgs/SKKUbg.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            height: 100%;
+            overflow: hidden;
+        }
+    
+        .back{
+        width: 10%;
+        z-index: 999;
+        }
+        .back button{
+            border: 0;
+            background-color:rgba(240, 248, 255, 0);
+            padding: 20px 0px 20px 10px;
+    
+        }
+    
+        .back i{
+        font-size: 20px;
+        background-color:rgba(240, 248, 255, 0);
+        }
+        */
+
+  /* 2. 전체 공통 요소는 아니지만, 다른 페이지에서도 쓰이는 요소 */
+  /* 스꾸실 로고 */
+  .Home-main_img {
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  /* 3. only 이 페이지에서만 쓰이는 요소 */
+  .Home-body {
+    background: url("../img/SKKUbg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+}

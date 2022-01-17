@@ -1,0 +1,20 @@
+.Act-body {
+  width: 80%;
+  text-align: left;
+  padding: 10% 10%;
+}
+
+.Act-email_logo img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.Act-body button {
+  font-size: 17px;
+  color: white;
+  background-color: rgb(141, 198, 63);
+  border: 0;
+  width: 130px;
+  height: 50px;
+  margin: 20px 0;
+}

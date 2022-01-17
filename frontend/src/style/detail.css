@@ -1,0 +1,181 @@
+@media only screen and (max-width: 800px) {
+  /* 2. 전체 공통 요소는 아니지만, 다른 페이지에서도 쓰이는 요소 */
+
+  .Detail-back {
+    position: fixed;
+    width: 10%;
+    z-index: 100;
+  }
+
+  .Detail-back button {
+    border: 0;
+    padding: 3px 10px 10px 10px;
+    background-color: white;
+  }
+
+  .Detail-back i {
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0);
+  }
+
+  .Detail-header {
+    padding: 30px 0% 10px;
+    text-align: center;
+    border-bottom: 1px gray solid;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    top: 0;
+  }
+  .Detail-header h2 {
+    font-size: 20px;
+    /* font-weight: 400; */
+    margin: 0;
+  }
+
+  /* 3. only 이 페이지에서만 쓰이는 요소 */
+
+  .Detail-body {
+    background-color: rgb(238, 238, 238);
+    margin: 0px;
+    padding: 0px;
+  }
+  /* 사진 영역 */
+  .item_detail_content {
+    width: 90%;
+    text-align: center;
+    height: 100%;
+    margin: 70px auto 80px auto;
+  }
+
+  .item_detail_img img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0px 5px 10px grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* 상세 설명 박스 영역*/
+  .item_detail_box {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    border: 0.5px rgb(201, 201, 201) solid;
+  }
+  /* 글 제목 */
+  .item_detail_box .item_detail_name {
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 0 5px 20px;
+  }
+  /* 등록일 */
+  .item_detail_box .item_detail_registerDate {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(146, 146, 146);
+    text-align: left;
+    padding: 0 0 20px 20px;
+    border-bottom: 3px rgb(141, 198, 63) solid;
+  }
+
+  /* 카테고리 로고 배열 */
+  .item_detail_category_logo {
+    margin-top: 10px;
+  }
+  .item_detail_category_logo_parent {
+    width: 300px;
+    height: 55px;
+    margin: auto;
+    display: flex;
+  }
+  .item_detail_category_campus,
+  .item_detail_category_location,
+  .item_detail_category_category,
+  .item_detail_category_color {
+    flex: 1;
+    margin: 0 10px 0 10px;
+    background: no-repeat center center;
+    background-size: 70% 70%;
+  }
+
+  /* 카테고리 텍스트 배열 */
+  .item_detail_category_exp {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+  }
+
+  .item_detail_category_exp_parent {
+    width: 300px;
+    height: auto;
+    margin: 0 auto 20px auto;
+    display: flex;
+  }
+
+  .item_detail_category_exp_campus,
+  .item_detail_category_exp_location,
+  .item_detail_category_exp_category,
+  .item_detail_category_exp_color {
+    flex: 1;
+  }
+
+  /* 분실일 */
+  .item_detail_lostDate {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(146, 146, 146);
+    text-align: left;
+    padding: 0 0 5px 20px;
+  }
+
+  .item_detail_lostDetailLoca {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(146, 146, 146);
+    text-align: left;
+    padding: 0 0 20px 20px;
+  }
+
+  .item_detail_lostExp {
+    font-size: 14px;
+    text-align: left;
+    width: 90%;
+    padding: 0 0 10px 20px;
+    margin: 0px;
+  }
+
+  #item_detail_startChat {
+    background-color: rgba(57, 57, 226, 0.959);
+    color: white;
+    border: 0;
+    margin: 20px auto 20px auto;
+  }
+
+  #item_detail_modify {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(141, 198, 63);
+    margin: 20px auto 0px auto;
+  }
+
+  #item_detail_delete {
+    background-color: rgb(248, 62, 62);
+    color: white;
+    border: 0;
+    margin: 10px auto 20px auto;
+  }
+
+  .item_detail_box button {
+    width: 60%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 0.5rem;
+  }
+}

@@ -1,0 +1,143 @@
+@media only screen and (max-width: 800px) {
+  /* 1. 전체 페이지 공통 요소 */
+
+  /* 2. 전체 공통 요소는 아니지만, 다른 페이지에서도 쓰이는 요소 */
+  .SAL-body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Noto Sans KR, sans-serif;
+  }
+
+  .SAL-header {
+    padding: 30px 0% 10px;
+    text-align: center;
+    border-bottom: 1px gray solid;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    top: 0;
+    z-index: 1;
+  }
+  .SAL-header h2 {
+    font-size: 20px;
+    /* font-weight: 400; */
+    margin: 0;
+  }
+
+  /* 3. only 이 페이지에서만 쓰이는 요소 */
+  /*검색 옵션 search_option (개인습득물 or 학생지원팀)*/
+  .SAL-search_option {
+    margin: 0 auto 15px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 20px;
+    border-radius: 30px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .SAL-search_option button {
+    width: fit-content;
+    height: 150%;
+    border: 0;
+    padding: 0 12% 0;
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  .SAL-Indi_btn {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  /*선택된 버튼 강조 표시(학생지원팀 버튼)*/
+  .SAL-circle_btn {
+    background: #fff;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: rgb(122, 175, 49);
+  }
+  /*검색창*/
+  .SAL-search_container {
+    margin: 80px auto 15px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 20px;
+    border-radius: 30px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  /*습득 위치 정보*/
+  .SAL-offi-list p {
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    /* 수정 */
+    margin-top: 0px;
+  }
+  /*개별 아이템*/
+  .SAL-offi-item {
+    margin-left: 10px;
+    display: flex;
+    font-size: 13px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+  }
+  /*아이템(습득물)명*/
+  .SAL-offi-item h3 {
+    font-weight: bold;
+    padding-top: 3px;
+    /* 수정 */
+    margin: 0;
+  }
+  /*개별 아이템 정보*/
+  .SAL-offi-item .SAL-offiItem-info {
+    width: 100%;
+  }
+  /*업로드 날짜 정보*/
+  .SAL-offi-date {
+    padding-right: 3%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8e8e8e;
+  }
+  .SAL-offi-item .SAL-offiItem-info div {
+    display: flex;
+  }
+  /*아이템 반환여부 - 반환완료*/
+  .SAL-offiItem-fin {
+    color: red;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-top: 3px;
+  }
+  /* search 페이지 공통(검색창) */
+  .SAL-search_text {
+    margin-left: 10px;
+    font-size: 16px;
+    background: none;
+    color: #5a6674;
+    width: 100%;
+    height: auto;
+    border: none;
+    appearance: none;
+    outline: none;
+  }
+  .SAL-search_btn {
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 150%;
+    margin: 5px;
+    width: 25%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+  }
+}

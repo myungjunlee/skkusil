@@ -1,0 +1,100 @@
+@media only screen and (max-width: 800px) {
+  /* 1. 전체 페이지 공통 요소 */
+
+  /* 2. 전체 공통 요소는 아니지만, 다른 페이지에서도 쓰이는 요소 */
+  .Mypage-circle-icon {
+    background: rgb(141, 198, 63, 0.5);
+    padding: 5px 8px;
+    border-radius: 50%;
+  }
+  /* 3. only 이 페이지에서만 쓰이는 요소 */
+  .Mypage-body {
+    background: url("../img/SKKUbg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Noto Sans KR, sans-serif;
+  }
+  .Mypage-user_info img {
+    display: block;
+    margin: 0px auto;
+  }
+  /* 유저 이미지 */
+  .Mypage-user_info {
+    margin: 70px auto -55px;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+  }
+  #user_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 70%;
+  }
+
+  /* 유저 학번, 이름 등 정보 */
+  .Mypage-user_box {
+    background-color: white;
+    text-align: center;
+    padding-top: 70px;
+    height: 100vh;
+  }
+
+  .Mypage-user_box h1 {
+    font-size: 30px;
+    margin: 7px auto;
+  }
+  .Mypage-user_box h2 {
+    font-size: 17px;
+    font-weight: 350;
+    margin: 10px auto;
+  }
+
+  /* 내 분실물 확인, 프로필 수정 버튼 */
+  .Mypage-user_box button {
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 0.3rem;
+  }
+
+  .Mypage-user_box #my_lost {
+    background-color: rgba(57, 57, 226, 0.959);
+    color: white;
+    border: 0;
+    margin-top: 20px;
+  }
+
+  .Mypage-user_box #modi_profile {
+    background-color: white;
+    border: 2px rgb(141, 198, 63) solid;
+    margin-bottom: 40px;
+  }
+
+  /* 중간 구분선 */
+  .Mypage-line {
+    background-color: rgb(177, 177, 177);
+    height: 5px;
+    margin: 0;
+  }
+
+  /* 기타 설정 및 문의 등 개인 기능 */
+  .Mypage-user_function {
+    margin-top: 40px;
+    text-align: left;
+  }
+
+  .Mypage-user_function ul {
+    list-style: none;
+    padding-bottom: 15px;
+    font-size: 17px;
+  }
+
+  .Mypage-user_function i {
+    font-size: 17px;
+    padding-right: 15px;
+  }
+}

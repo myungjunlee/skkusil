@@ -1,0 +1,196 @@
+@media only screen and (max-width: 800px) {
+  /* 2. 전체 공통 요소는 아니지만, 다른 페이지에서도 쓰이는 요소 */
+  /* 스꾸실 로고 */
+  .SL-back {
+    position: fixed;
+    width: 10%;
+    z-index: 100;
+  }
+
+  .SL-back button {
+    border: 0;
+    padding: 3px 10px 10px 10px;
+    background-color: white;
+  }
+
+  .SL-filter {
+    right: 20px;
+    top: 27px;
+    position: fixed;
+    width: 10%;
+    z-index: 100;
+  }
+
+  .SL-filter button {
+    border: 0;
+    padding: 7px;
+    background-color: white;
+    color: rgb(122, 175, 49);
+    font-size: 15px;
+  }
+
+  .SL-back i {
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0);
+  }
+
+  .SL-header {
+    padding: 30px 0% 10px;
+    text-align: center;
+    border-bottom: 1px gray solid;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    top: 0;
+  }
+  .SL-header h2 {
+    font-size: 20px;
+    /* font-weight: 400; */
+    margin: 0;
+  }
+
+  /* 3. only 이 페이지에서만 쓰이는 요소 */
+  .SL-body {
+    /*padding-top: 60px;*/
+    margin: 0px;
+    padding: 0px;
+    font-family: Noto Sans KR, sans-serif;
+  }
+  /* 리스트 스크롤 틀 */
+  .indi_item {
+    margin-bottom: 80px;
+  }
+
+  .indi_list {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    border: rgb(189, 189, 189) 1px solid;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+  }
+
+  .indi_list::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  /** item 목록 **/
+  .indi_list li {
+    list-style-type: none;
+  }
+
+  /* 이미지 사이즈 설정 : 너비 90% / 높이 300px 고정 / 나머지는 hidden으로 자르기*/
+  .indi_list li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+
+  /* 분실물 대표정보 표시 */
+  .indItem-name {
+    float: left;
+    clear: left;
+    margin: 0 auto 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .indItem-date {
+    float: right;
+    clear: right;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 300;
+    color: #5a6674;
+  }
+
+  .indItem-loca {
+    font-size: 15px;
+  }
+
+  .indItem-sort {
+    padding-right: 5px;
+    border-right: 1px #5a6674 solid;
+    font-size: 15px;
+  }
+
+  .indItem-color {
+    padding-left: 10px;
+    font-size: 15px;
+  }
+
+  /*검색 옵션 search_option (개인습득물 or 학생지원팀)*/
+  .SL-search_option {
+    margin: 0 auto 15px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 20px;
+    border-radius: 30px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .SL-search_option button {
+    width: fit-content;
+    height: 150%;
+    border: 0;
+    padding: 0 12% 0;
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  .SL-Offi_btn {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  /*선택된 버튼 강조 표시(개인습득물 버튼)*/
+  .SL-circle_btn {
+    background: #fff;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: rgb(122, 175, 49);
+  }
+  /*검색창*/
+  .SL-search_container {
+    margin: 90px auto 15px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 20px;
+    border-radius: 30px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  /* search 페이지 공통(검색창) */
+  .SL-search_text {
+    margin-left: 10px;
+    font-size: 16px;
+    background: none;
+    color: #5a6674;
+    width: 100%;
+    height: auto;
+    border: none;
+    appearance: none;
+    outline: none;
+  }
+  .SL-search_btn {
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 150%;
+    margin: 5px;
+    width: 25%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+  }
+}

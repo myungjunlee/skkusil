@@ -1,0 +1,43 @@
+@media only screen and (max-width: 800px) {
+  * {
+    font-family: Noto Sans KR, sans-serif;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  /* 하단 네비게이션 바 */
+  .Navbar-mobile_list {
+    align-content: center;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    padding: 0%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: white;
+    margin: 0;
+    vertical-align: bottom;
+    border-top: rgb(187, 187, 187) 1px solid;
+    z-index: 500;
+  }
+
+  .Navbar-mobile_list i {
+    font-size: 25px;
+  }
+
+  #home {
+    background-color: rgb(141, 198, 63);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 4rem;
+  }
+}

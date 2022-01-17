@@ -1,0 +1,67 @@
+@media only screen and (max-width: 800px) {
+  /* 1. 전체 페이지 공통 요소 */
+
+  /* 2. 전체 공통 요소는 아니지만, 다른 페이지에서도 쓰이는 요소 */
+  /* 스꾸실 로고 */
+  .Login-main_img {
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  /* input box 클릭하면 자동생성되는 border-line 제거 */
+  .Login-login_text input:focus {
+    outline: none;
+  }
+
+  /* 3. only 이 페이지에서만 쓰이는 요소 */
+
+  .Login-body {
+    background: url("../img/SKKUbg_login.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  /* 아이디, 비밀번호 입력창 */
+  .Login-login_text {
+    margin-top: 12%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .Login-login_text input {
+    width: 80%;
+    color: gray;
+    font-size: 15px;
+    margin-top: 7px;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    height: 40px;
+  }
+
+  /* 로그인, 회원가입 버튼 */
+  .Login-login_btn {
+    text-align: center;
+  }
+  .Login-login_btn button {
+    font-size: 15px;
+    width: 40%;
+    height: 35px;
+    border-radius: 0.5rem;
+  }
+  .Login-login_btn #log_in {
+    background-color: white;
+    color: black;
+    border: 2px rgb(141, 198, 63) solid;
+    margin-right: 1.5px;
+  }
+  .Login-login_btn #register {
+    background-color: rgb(141, 198, 63);
+    color: white;
+    border: 0px;
+    margin-left: 1.5px;
+  }
+}

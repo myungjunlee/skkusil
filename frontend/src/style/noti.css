@@ -1,0 +1,69 @@
+@media only screen and (max-width: 800px) {
+  /* 1. 전체 페이지 공통 요소 */
+
+  /* 2. 전체 공통 요소는 아니지만, 다른 페이지에서도 쓰이는 요소 */
+  .Noti-body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Noto Sans KR, sans-serif;
+  }
+  .Noti-header {
+    padding: 30px 0% 10px;
+    text-align: center;
+    border-bottom: 1px gray solid;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    top: 0;
+  }
+  .Noti-header h2 {
+    font-size: 20px;
+    /* font-weight: 400; */
+    margin: 0;
+  }
+
+  /* 3. only 이 페이지에서만 쓰이는 요소 */
+  /* 페이지 틀 */
+  /*알림 전체 틀*/
+  .Noti-notifi_box {
+    width: 100%;
+    margin-top: 64.2px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  /*개별 알림 요소*/
+  .Noti-notifi_item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 2px 0;
+    font-size: 13px;
+  }
+  /* 알림 미리보기 정보*/
+  /*알림 종류(ex. 시스템 알림 or 채팅 알림 or 이벤트 알림)*/
+  .Noti-noti_text h3 {
+    margin: 19px 0 8px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  /*알림 텍스트*/
+  .Noti-notifi_item .Noti-noti_text {
+    margin-bottom: 34px;
+    width: 110%;
+  }
+  /*알림 이미지*/
+  .Noti-notifi_item .Noti-noti_img {
+    margin: 5%;
+    width: 40%;
+  }
+  /*알림 시간 정보 */
+  .Noti-notifi_item .Noti-noti_time {
+    align-items: center;
+    padding: 5%;
+    margin-bottom: 18%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8e8e8e;
+  }
+}

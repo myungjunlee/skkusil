@@ -1,0 +1,62 @@
+@media only screen and (max-width: 800px) {
+  /* 1. 전체 페이지 공통 요소 */
+
+  /* 2. 전체 공통 요소는 아니지만, 다른 페이지에서도 쓰이는 요소 */
+  /* 헤더 */
+  .New-header {
+    padding: 30px 0% 10px;
+    text-align: center;
+    border-bottom: 1px gray solid;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    top: 0;
+  }
+  .New-header h2 {
+    font-size: 20px;
+    /* font-weight: 400; */
+    margin: 0;
+  }
+
+  /* 3. only 이 페이지에서만 쓰이는 요소 */
+
+  .New-body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Noto Sans KR, sans-serif;
+    background-color: white;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+  }
+
+  /* 분실물 등록 */
+  .New-lost_enterance {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .New-lost_enterance h3 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  /* 습득물 등록*/
+  .New-found_enterance {
+    text-align: center;
+  }
+
+  .New-found_enterance h3 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 80px;
+  }
+
+  .New-new_img img {
+    width: 70%;
+    border: 2px rgb(141, 198, 63) solid;
+    border-radius: 1.5rem;
+  }
+}

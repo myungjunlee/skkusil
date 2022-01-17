@@ -1,0 +1,139 @@
+/* 1. 전체 페이지 공통 요소 */
+
+/* 2. 전체 공통 요소는 아니지만, 다른 페이지에서도 쓰이는 요소 */
+.MP-body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Noto Sans KR, sans-serif;
+}
+.MP-back {
+  top: 45px;
+  position: fixed;
+  width: 10%;
+  z-index: 100;
+}
+
+.MP-back button {
+  border: 0;
+  padding: 3px 10px 10px 10px;
+  background-color: white;
+}
+
+.MP-back i {
+  font-size: 20px;
+  background-color: rgba(240, 248, 255, 0);
+}
+/*헤더*/
+.MP-header {
+  padding: 30px 0% 10px;
+  text-align: center;
+  border-bottom: 1px gray solid;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  top: 0;
+}
+.MP-header h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* 3. only 이 페이지에서만 쓰이는 요소 */
+
+/*헤더 부분 - 마이페이지 기본정보(학번, 이름, 소속정보)*/
+.mypage-header {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.mypage-header h5 {
+  padding: 1.5%;
+}
+
+/*기본정보 아래 - '내 분실물&습득물' 타이틀 텍스트*/
+.mypage-top-area {
+  background: rgba(57, 57, 226, 0.959);
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+/*본문 - 잃어버린+주운 물건 리스트 전체 틀*/
+.mypage-container {
+  width: 97%;
+  overflow: hidden;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 71px;
+}
+
+/*잃어버린 물건 목록 전체 틀*/
+.mypage-container .mypage-myLost-container {
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+/*목록 구분 (잃어버린 물건 목록 or 주운 물건)*/
+.mypage-text {
+  margin-left: 1.2%;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 1%;
+}
+
+/*잃어버린 or 주운 목록 기본 틀 : mypage-wrapper
+            (:mypage-container는 잃어버린/주운 목록 1개씩 총 2개의 mypage-wrapper로 구성됨)*/
+.mypage-wrapper {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.mypage-wrapper ul {
+  display: flex;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  padding: auto;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+.mypage-wrapper ul li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+/*개별 아이템 : mypage-option*/
+.mypage-option {
+  width: 100%;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  background: #fff;
+}
+
+/*개별 아이템 미리보기 이미지*/
+.mypage-option img {
+  object-fit: cover;
+  width: 105px;
+}
+
+/*하단 더 보기 버튼*/
+.mypage-btn {
+  width: 95%;
+  padding: 3%;
+  margin-bottom: 5%;
+  background: #fff;
+  font-weight: bold;
+  border: #000 2px solid;
+  border-radius: 5px;
+}
